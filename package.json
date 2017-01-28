@@ -1,0 +1,29 @@
+{
+  "name": "node-web-api",
+  "version": "1.0.0",
+  "description": "Node application using mongo &amp; redis for cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abennehhou/node-web-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abennehhou/node-web-api/issues"
+  },
+  "homepage": "https://github.com/abennehhou/node-web-api#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.7.9",
+    "redis": "^2.6.5",
+    "request": "^2.79.0"
+  }
+}
